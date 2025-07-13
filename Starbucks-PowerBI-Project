@@ -18,11 +18,9 @@ The objective of this project is to explore Starbucks sales data and uncover act
 
 ## 📊 Tools & Technologies Used
 
-| Tool        | Purpose                                |
-|-------------|----------------------------------------|
-| Power BI    | Data modeling, transformation, visualization |
-| Excel       | Source dataset format                  |
-| Power Query | Data cleaning and preparation          |
+- Power BI    : Data modeling, transformation, visualization 
+- Excel       : Source dataset format                  
+- Power Query : Data cleaning and preparation          
 
 ---
 
