@@ -1,0 +1,105 @@
+# ☕ Starbucks Sales Dashboard – Power BI Project
+
+A data visualization project analyzing Starbucks sales performance using **Microsoft Power BI**.  
+Created by **Mamata Rajaram Sawant**
+
+---
+
+## 📌 Project Objective
+
+The objective of this project is to explore Starbucks sales data and uncover actionable business insights through visual storytelling. The analysis focuses on:
+
+- Product category trends
+- Regional store distribution
+- Seasonal pricing patterns
+- Customer payment preferences
+
+---
+
+## 📊 Tools & Technologies Used
+
+| Tool        | Purpose                                |
+|-------------|----------------------------------------|
+| Power BI    | Data modeling, transformation, visualization |
+| Excel       | Source dataset format                  |
+| Power Query | Data cleaning and preparation          |
+
+---
+
+## 🧹 Data Preparation Steps
+
+Performed in Power BI's Power Query Editor:
+
+- Replaced null values in `Quantity` and `Price` columns with `0`
+- Converted column data types:
+  - `Date` ➝ Date
+  - `Quantity`, `Price`, `Total_Sales` ➝ Whole Number / Decimal
+- Renamed ambiguous column names:
+  - `Cat` ➝ `Category`, `PM` ➝ `Payment_Mode`
+- Removed duplicate rows
+
+---
+
+## 📁 Dataset Overview
+
+- **Source:** Sample Starbucks Sales Dataset (Excel format, ~1000 rows)
+- **Key Columns:**
+  - `Date`
+  - `City`
+  - `Product`
+  - `Category`
+  - `Quantity`
+  - `Price`
+  - `Payment_Mode`
+  - `Total_Sales`
+
+---
+
+## 📈 Dashboard Insights
+
+### 🔸 Category Analysis
+- Products are divided into **Blended**, **Cold**, and **Hot** categories.
+- All categories show balanced total sales.
+- This allows for consistent inventory planning across product types.
+
+### 🔸 Regional Insights
+- **Phoenix, New York, and San Francisco** have the highest store count.
+- Geographic spread helps identify cities for potential growth.
+
+### 🔸 Seasonal Pricing Trends
+- Price peaks in **March** and **August**, indicating possible seasonal promotions.
+- Pricing stabilizes in the latter half of the year.
+
+### 🔸 Customer Preferences
+- **Debit Cards** are the most used payment method.
+- **Cash**, **Gift Cards**, and **UPI** also show significant usage.
+- Starbucks supports diverse payment modes to enhance customer convenience.
+
+---
+
+## 🎯 Key Learnings
+
+- Cleaned and transformed raw data using **Power Query**
+- Designed a branded, user-friendly dashboard in **Power BI**
+- Identified patterns in sales performance, customer behavior, and pricing
+- Learned to derive insights from raw data using data visualization
+
+---
+
+## 📸 Project Files
+
+- `Starbucks_Sales_Dashboard.pptx` – Project presentation with insights and visuals
+- `Dashboard_Screenshots/` – Visuals from the Power BI dashboard (optional)
+
+---
+
+## 🔗 Connect with Me
+
+👤 **Mamata Rajaram Sawant**  
+📍 Data Science Enthusiast | Power BI Learner  
+🔗 [LinkedIn](https://linkedin.com/in/mamata-sawant-87330b2a6)
+
+---
+
+> ⭐ *If you liked this project, feel free to star this repository!*
+
